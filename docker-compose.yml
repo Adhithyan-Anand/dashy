@@ -5,7 +5,7 @@ services:
     image: lissy93/dashy:latest
     container_name: dashy
     ports:
-      - "4000:80"
+      - "4000:4000"
     volumes:
       - ./conf.yml:/app/public/conf.yml
     restart: unless-stopped
